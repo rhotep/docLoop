@@ -28,7 +28,7 @@ body > section:nth-child(2n+1){
 }
 
 body > section:nth-child(2n){
-	background:					#bb44bb;
+	background:					#7788cc;
 }
 
 article {
@@ -98,3 +98,37 @@ article > p {
 	margin:						1rem;
 	text-align:					left;
 }
+
+.three {
+	display:					flex;
+	justify-content:			space-around;
+	align-items:				middle;
+}
+
+
+.comments {
+	background-image:			url(assets/images/comments.png);
+	height:						10 rem;
+	width:						10 rem;
+	background-size:			contain;
+	background-repeat:			no-repeat;
+}
+
+.issues {
+	background-image:			url(assets/images/issues.png);
+	height:						10 rem;
+	width:						10 rem;
+	background-size:			contain;
+	background-repeat:			no-repeat;
+}
+
+
+.issues {
+	background-image:			url(assets/images/arrow_right.png);
+	height:						10 rem;
+	width:						10 rem;
+	background-size:			contain;
+	background-repeat:			no-repeat;
+}
+
+
