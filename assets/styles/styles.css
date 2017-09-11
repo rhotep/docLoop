@@ -1,13 +1,18 @@
 html{
 	font-family:				sans-serif;	
 	font-weight:				400;
+	margin:						0;
+	padding:					0;
 }
 
 body {
-
+	margin:						0;
+	padding:					0;
 }
 
 article {
+	box-sizing:					border-box;
+	padding:					1rem 0;
 	min-height: 				10rem;
 	text-align:					center;
 	background:					#666688;
@@ -17,7 +22,7 @@ article {
 
 .text-logo {
 	display:					inline-flex;
-	font-family:				mono-space;
+	font-family:				monospace;
 	font-weight:				700;
 }
 
@@ -26,7 +31,7 @@ article {
 }
 
 h1 {
-	font-size:					2em;
+	font-size:					3em;
 	margin:						1em 0;
 	font-weight:				700;
 }
