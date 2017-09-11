@@ -115,6 +115,11 @@ article > p {
 	flex-wrap:					wrap;
 }
 
+.three.white {
+	bcakground-color:			rgba(255,255,255,0.9);
+	border-radius:				1rem;
+}
+
 .three > * {
 	margin:						1rem;
 	flex:						1 1 auto;
@@ -174,8 +179,6 @@ article > p {
 
 .paperhive {
 	background-image:			url(../images/paperhive.svg);
-	background-color:			rgba(255,255,255,0.4);
-	border-radius:				1rem;
 	width:						15rem;
 	height:						10rem;
 	border:						1rem solid transparent;
@@ -183,8 +186,6 @@ article > p {
 
 .github {
 	background-image:			url(../images/GitHub_Logo.png);
-	background-color:			rgba(255,255,255,0.4);
-	border-radius:				1rem;
 	width:						15rem;
 	height:						10rem;
 	border:						1rem solid transparent;
