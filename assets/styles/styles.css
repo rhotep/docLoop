@@ -108,6 +108,10 @@ article > p {
 	align-items:				middle;
 }
 
+.three > * {
+	margin:						1rem;
+} 
+
 
 .comments {
 	background-image:			url(../images/comments.png);
@@ -165,5 +169,13 @@ article > p {
 
 .prototype {
 	background-image:			url(../images/prototype_fund.svg);
+}
+
+.paperhive {
+	background-image:			url(../images/paperhive.svg);
+}
+
+.github {
+	background-image:			url(../images/GitHub_Logo_white.svg);
 }
 
