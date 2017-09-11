@@ -23,6 +23,11 @@ a:hover {
 	border-bottom:				solid #fff 1px;
 }
 
+body > section {
+	overflow:					hidden;
+	box-sizing:					border-box;
+}
+
 body > section:nth-child(2n+1){
 	background:					#4444bb;
 }
@@ -107,6 +112,7 @@ article > p {
 	display:					flex;
 	justify-content:			space-around;
 	align-items:				center;
+	flex-wrap:					wrap;
 }
 
 .three > * {
