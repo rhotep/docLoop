@@ -49,6 +49,7 @@ article {
 	display:					inline-flex;
 	font-family:				monospace;
 	font-weight:				700;
+	font-size:					1.1em;
 }
 
 .text-logo > * {
@@ -105,11 +106,12 @@ article > p {
 .three {
 	display:					flex;
 	justify-content:			space-around;
-	align-items:				middle;
+	align-items:				center;
 }
 
 .three > * {
 	margin:						1rem;
+	min-width:					6rem;
 } 
 
 
@@ -166,17 +168,20 @@ article > p {
 
 .paperhive {
 	background-image:			url(../images/paperhive.svg);
-	background-color:			rgba(255,255,255,0.2);
+	background-color:			rgba(255,255,255,0.4);
 	border-radius:				1rem;
 	width:						15rem;
 	height:						10rem;
+	border:						1rem solid transparent;
 }
 
 .github {
 	background-image:			url(../images/GitHub_Logo.png);
-	background-color:			rgba(255,255,255,0.2);
+	background-color:			rgba(255,255,255,0.4);
 	border-radius:				1rem;
 	width:						15rem;
-	height:						10;
+	height:						10rem;
+	border:						1rem solid transparent;
+
 }
 
