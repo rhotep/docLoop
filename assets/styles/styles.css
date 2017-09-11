@@ -30,6 +30,9 @@ body > section:nth-child(2n+1){
 body > section:nth-child(2n){
 	background:					#7788cc;
 }
+body > section.white {
+	background:					#fff;
+}
 
 article {
 	box-sizing:					border-box;
@@ -131,4 +134,33 @@ article > p {
 	background-repeat:			no-repeat;
 }
 
+.logos {
+	display:					flex;
+	justify-content:			space-around;
+}
+
+.logos > * {
+	flex:						0 0 auto;
+	height:						15rem;
+	width:						15rem;
+	margin:						0.5rem;
+	background-size:			contain;
+	background-repeat:			no-repeat;
+	background-position:		50% 50%;
+}
+
+
+.okf {
+	background-image:			url(asstes/images/OKFDE_Logo_black.svg);
+}
+
+
+.bmbf {
+	background-image:			url(asstes/images/BMBF_Logo.svg);
+}
+
+
+.prototype {
+	background-image:			url(asstes/images/prototype_fund.svg);
+}
 
