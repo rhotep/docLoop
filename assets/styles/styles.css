@@ -110,7 +110,7 @@ article > p {
 
 
 .comments {
-	background-image:			url(assets/images/comments.png);
+	background-image:			url(images/comments.png);
 	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
@@ -118,7 +118,7 @@ article > p {
 }
 
 .issues {
-	background-image:			url(assets/images/issues.png);
+	background-image:			url(images/issues.png);
 	height:						15rem;
 	width:						10rem;
 	background-size:			cotain;
@@ -127,7 +127,7 @@ article > p {
 
 
 .arrow-right {
-	background-image:			url(assets/images/arrow_right.png);
+	background-image:			url(images/arrow_right.png);
 	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
@@ -151,16 +151,16 @@ article > p {
 
 
 .okf {
-	background-image:			url(asstes/images/OKFDE_Logo_black.svg);
+	background-image:			url(images/OKFDE_Logo_black.svg);
 }
 
 
 .bmbf {
-	background-image:			url(asstes/images/BMBF_Logo.svg);
+	background-image:			url(images/BMBF_Logo.svg);
 }
 
 
 .prototype {
-	background-image:			url(asstes/images/prototype_fund.svg);
+	background-image:			url(images/prototype_fund.svg);
 }
 
