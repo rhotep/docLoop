@@ -65,13 +65,22 @@ h4 {
 }
 
 
+article > p {
+	max-width:					30rem;
+	text-align:					left;
+}
+
 .boxes {
 	display:					flex;
 	flex-wrap:					wrap;
+	justify-content:			space-around;
+
 }
 
 .boxes > * {
 	flex:						1 0 0;
 	max-width:					20rem;
+	min-width:					15rem;
 	margin:						1rem;
+	text-align:					left;
 }
