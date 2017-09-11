@@ -1,9 +1,18 @@
+html{
+	font-family:				sans-serif;	
+	font-weight:				400;
+}
+
+body {
+
+}
+
 article {
 	min-height: 				10rem;
 	text-align:					center;
+	background:					#666688;
+	color:						#fff;
 
-	font-family:				sans-serif;
-	font-weight:				400;
 }
 
 .text-logo {
