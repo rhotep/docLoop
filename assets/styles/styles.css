@@ -14,7 +14,7 @@ a {
 	color:						#fff;
 	text-decoration:			none;
 	cursor:						pointer;
-	border-bottom:				solid rgba(255,255,255,0.2) 1px;
+	border-bottom:				solid rgba(255,255,255,0.3) 1px;
 
 }
 
@@ -62,4 +62,16 @@ h3 {
 h4 {
 	font-size:					1.25em;
 	font-weight:				400;
+}
+
+
+.boxes {
+	display:					flex;
+	flex-wrap:					wrap;
+}
+
+.boxes > * {
+	flex:						1 0 0;
+	max-width:					20rem;
+	margin:						1rem;
 }
