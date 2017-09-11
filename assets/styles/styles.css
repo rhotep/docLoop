@@ -54,7 +54,7 @@ article {
 	display:					inline-flex;
 	font-family:				monospace;
 	font-weight:				700;
-	font-size:					1.1em;
+	font-size:					1.2em;
 }
 
 .text-logo > * {
@@ -146,6 +146,7 @@ article > p {
 
 .arrow-right {
 	background-image:			url(../images/arrow_right.png);
+	height:						5rem;
 }
 
 .logos {
