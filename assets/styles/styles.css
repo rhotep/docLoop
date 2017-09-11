@@ -162,6 +162,7 @@ article > p {
 	background-size:			contain;
 	background-repeat:			no-repeat;
 	background-position:		50% 50%;
+	min-width:					10rem;
 }
 
 
