@@ -68,6 +68,7 @@ h4 {
 article > p {
 	max-width:					30rem;
 	text-align:					left;
+	margin:						auto;
 }
 
 .boxes {
