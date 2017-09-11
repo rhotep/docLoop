@@ -169,6 +169,7 @@ article > p {
 	background:					rgba(255,255,255,0.2);
 	border-radius:				1rem;
 	width:						15rem;
+	height:						10;
 }
 
 .github {
@@ -176,5 +177,6 @@ article > p {
 	background:					rgba(255,255,255,0.2);
 	border-radius:				1rem;
 	width:						15rem;
+	height:						10;
 }
 
