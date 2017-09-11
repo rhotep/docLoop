@@ -166,9 +166,13 @@ article > p {
 
 .paperhive {
 	background-image:			url(../images/paperhive.svg);
+	background:					rgba(255,255,255,0.2);
+	border-radius:				1rem;
 }
 
 .github {
-	background-image:			url(../images/GitHub_Logo_White.svg);
+	background-image:			url(../images/GitHub_Logo.png);
+	background:					rgba(255,255,255,0.2);
+	border-radius:				1rem;
 }
 
