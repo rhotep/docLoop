@@ -108,7 +108,7 @@ article > p {
 
 .comments {
 	background-image:			url(assets/images/comments.png);
-	height:						10rem;
+	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
 	background-repeat:			no-repeat;
@@ -116,16 +116,16 @@ article > p {
 
 .issues {
 	background-image:			url(assets/images/issues.png);
-	height:						10rem;
+	height:						15rem;
 	width:						10rem;
 	background-size:			cotain;
 	background-repeat:			no-repeat;
 }
 
 
-.issues {
+.arrow-right {
 	background-image:			url(assets/images/arrow_right.png);
-	height:						10rem;
+	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
 	background-repeat:			no-repeat;
