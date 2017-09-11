@@ -36,7 +36,7 @@ body > section.white {
 
 article {
 	box-sizing:					border-box;
-	padding:					2.5rem 0;
+	padding:					2.5rem 1rem;
 	min-height: 				10rem;
 	text-align:					center;
 	color:						#fff;
@@ -110,7 +110,7 @@ article > p {
 
 
 .comments {
-	background-image:			url(images/comments.png);
+	background-image:			url(../images/comments.png);
 	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
@@ -118,7 +118,7 @@ article > p {
 }
 
 .issues {
-	background-image:			url(images/issues.png);
+	background-image:			url(../images/issues.png);
 	height:						15rem;
 	width:						10rem;
 	background-size:			cotain;
@@ -127,7 +127,7 @@ article > p {
 
 
 .arrow-right {
-	background-image:			url(images/arrow_right.png);
+	background-image:			url(../images/arrow_right.png);
 	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
@@ -151,16 +151,16 @@ article > p {
 
 
 .okf {
-	background-image:			url(images/OKFDE_Logo_black.svg);
+	background-image:			url(../images/OKFDE_Logo_black.svg);
 }
 
 
 .bmbf {
-	background-image:			url(images/BMBF_Logo.svg);
+	background-image:			url(../images/BMBF_Logo.svg);
 }
 
 
 .prototype {
-	background-image:			url(images/prototype_fund.svg);
+	background-image:			url(../images/prototype_fund.svg);
 }
 
