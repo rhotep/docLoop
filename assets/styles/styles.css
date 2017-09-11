@@ -113,32 +113,25 @@ article > p {
 } 
 
 
-.comments {
-	background-image:			url(../images/comments.png);
+.image {
 	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
 	background-position:		50% 50%;
-	background-repeat:			no-repeat;
+	background-repeat:			no-repeat;	
+}
+
+.comments {
+	background-image:			url(../images/comments.png);
 }
 
 .issues {
 	background-image:			url(../images/issues.png);
-	height:						15rem;
-	width:						10rem;
-	background-size:			contain;
-	background-position:		50% 50%;
-	background-repeat:			no-repeat;
 }
 
 
 .arrow-right {
 	background-image:			url(../images/arrow_right.png);
-	height:						15rem;
-	width:						10rem;
-	background-size:			contain;
-	background-position:		50% 50%;
-	background-repeat:			no-repeat;
 }
 
 .logos {
@@ -148,7 +141,7 @@ article > p {
 
 .logos > * {
 	flex:						0 0 auto;
-	height:						15rem;
+	height:						10rem;
 	width:						15rem;
 	margin:						0.5rem;
 	background-size:			contain;
