@@ -114,6 +114,7 @@ article > p {
 	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
+	background-position:		50% 50%;
 	background-repeat:			no-repeat;
 }
 
@@ -121,7 +122,8 @@ article > p {
 	background-image:			url(../images/issues.png);
 	height:						15rem;
 	width:						10rem;
-	background-size:			cotain;
+	background-size:			contain;
+	background-position:		50% 50%;
 	background-repeat:			no-repeat;
 }
 
@@ -131,6 +133,7 @@ article > p {
 	height:						15rem;
 	width:						10rem;
 	background-size:			contain;
+	background-position:		50% 50%;
 	background-repeat:			no-repeat;
 }
 
