@@ -4,7 +4,7 @@ var createApp = require('github-app');
 
 var app = createApp({
   id: process.env.APP_ID,
-  cert: require('fs').readFileSync('private-key.pem')
+  cert: require('fs').readFileSync('docloop.2017-09-13.private-key.pem')
 });
 
 
@@ -15,7 +15,7 @@ var createHandler = require('github-webhook-handler');
 
 var handler = createHandler({
   path: '/',
-  secret: 'myhashsecret'
+  secret: process.env.DOCLOOP_APP_TOKEN
 })
 
 handler.on('issues', function (event) {
