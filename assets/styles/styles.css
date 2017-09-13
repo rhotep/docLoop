@@ -218,6 +218,13 @@ article > ul > li {
 } 
 
 
+@media screen and (max-width: 650px){
+	.three > * {
+		min-width:				100%;
+	}
+}
+
+
 .image {
 	height:						15rem;
 	width:						10rem;
@@ -238,6 +245,13 @@ article > ul > li {
 .arrow-right {
 	background-image:			url(../images/arrow_right.png);
 	height:						4rem;
+}
+
+@media screen and (max-width: 650px){
+	.arrow-right {
+		background-image:		url(../images/arrow_down.png);
+		height:					6rem;
+	}
 }
 
 .logos {
