@@ -1,5 +1,13 @@
+@font-face { font-family: 'fira-sans'; 	font-weight: 300; src: url('../fonts/FiraSans-Light.otf')			format('opentype'); }
+@font-face { font-family: 'fira-sans'; 	font-weight: 400; src: url('../fonts/FiraSans-Regular.otf')			format('opentype'); }
+@font-face { font-family: 'fira-sans'; 	font-weight: 600; src: url('../fonts/FiraSans-SemiBold.otf')		format('opentype'); }
+
+
+
+
+
 html{
-	font-family:				sans-serif;	
+	font-family:				fira-sans, sans-serif;	
 	font-weight:				400;
 	margin:						0;
 	padding:					0;
@@ -8,19 +16,19 @@ html{
 body {
 	margin:						0;
 	padding:					0;
-
+	background-size:			cover;
 }
 
 a {
-	color:						#fff;
+	color:						#000;
 	text-decoration:			none;
 	cursor:						pointer;
-	border-bottom:				solid rgba(255,255,255,0.3) 1px;
+	border-bottom:				solid rgba(0,0,0,0.3) 1px;
 
 }
 
 a:hover {
-	border-bottom:				solid #fff 1px;
+	border-bottom:				solid #000 1px;
 }
 
 body > header, 
@@ -31,34 +39,72 @@ body > section {
 
 header {
 	background-image:			url(../images/background_paper.jpg);
-}
+	background-position:		50% 50%;
+	background-repeat:			no-repeat;
+	background-size:			cover;
 
-body > section:nth-child(2n+1){
-	background:					#4444bb;
-}
-
-body > section:nth-child(2n){
-	background:					#7788cc;
-}
-body > section.white {
-	background:					#fff;
-}
-
-article {
-	box-sizing:					border-box;
-	padding:					2.5rem 1rem;
-	min-height: 				10rem;
-	text-align:					center;
+	box-shadow:					0 0 1rem rgba(0,0,0,0.8), 0 -1rem 0rem 0rem rgba(0,0,0,0.3) inset; 
+	
 	color:						#fff;
+
+	position:					relative;
+	z-index:					10;
+	overflow:					visible;
+}
+
+body > section {
+	color:						rgba(0,0,0,0.8);
+	border-bottom:				0.2rem dashed rgba(0,0,0,0.2)
+}
+
+body > section:last-child{
+	border-bottom:				none;
+} 
+
+section p {
+	font-weight:				300;
+}
+
+
+section.blue {
+	background-color:			#def;
+}
+
+
+section.white {
+	background-color:			#fff;
+}
+
+header > article,
+section > article {
+	box-sizing:					border-box;
+	padding:					2.5rem 3rem;
+	min-height: 				5rem;
+	text-align:					center;
 	max-width:					64rem;
 	margin:						auto;
 
 }
 
+section.split {
+	display:					flex;
+	align-items:				flex-start;
+	justify-content:			center;
+	flex-wrap:					wrap;
+}
+
+section.split > article {
+	flex:						1 1 auto;
+	max-width:					32rem;
+	min-width:					20rem;
+	margin:						0;
+}
+
+
 .text-logo {
 	display:					inline-flex;
 	font-family:				monospace;
-	font-weight:				700;
+	font-weight:				600;
 	font-size:					1.2em;
 }
 
@@ -69,24 +115,44 @@ article {
 h1 {
 	font-size:					3em;
 	margin:						1em 0;
-	font-weight:				700;
+	font-weight:				600;
 }
 
 h2 {
 	font-size:					1.5em;
-	margin:						1em 0;
-	font-weight:				700;
+	margin:						2em 0;
+	font-weight:				600;
 }
 
 h3 {
-	font-weight:				1.25em;
-	font-weight:				700;
+	font-size:					1.3em;
+	font-weight:				600;
+	text-transform:			 	uppercase;
+	margin:						2rem 0;
 }
 
 h4 {
 	font-size:					1.25em;
+	font-weight:				600;
+	margin:						1rem 0;
+}
+
+h5 {
+	box-sizing:					border-box;
+	display:					inline-block;
+	font-size:					1.25em;
 	font-weight:				400;
 	margin:						0;
+	text-align:					right;
+	vertical-align:				top;
+	width:						45%;
+	padding-right:				1rem;
+}
+
+h5 + p {
+	display:					inline-block;
+	width:						50%;
+	margin-top:					0;
 }
 
 p {
@@ -98,6 +164,18 @@ article > p {
 	text-align:					left;
 }
 
+article > ul {
+	max-width:					30rem;
+	text-align:					left;
+	padding:					0;
+	padding-left:				2rem;
+}
+
+article > ul > li {
+	padding:					0.3rem 0;
+}
+
+
 .boxes {
 	display:					flex;
 	flex-wrap:					wrap;
@@ -106,11 +184,19 @@ article > p {
 }
 
 .boxes > * {
-	flex:						1 0 0;
-	max-width:					20rem;
-	min-width:					15rem;
-	margin:						1rem;
+	flex:						1 0 auto;
+	padding:					0;
+	width:						20rem;
+	margin:						2rem;
 	text-align:					left;
+}
+
+.boxes > * > h1,
+.boxes > * > h2,
+.boxes > * > h3,
+.boxes > * > h4,
+.boxes > * > h5 {
+	text-align:					center;
 }
 
 .three {
@@ -162,8 +248,8 @@ article > p {
 
 .logos > * {
 	flex:						0 0 auto;
-	height:						10rem;
-	width:						15rem;
+	height:						6rem;
+	width:						10rem;
 	margin:						0.5rem;
 	background-size:			contain;
 	background-repeat:			no-repeat;

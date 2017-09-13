@@ -17,10 +17,13 @@
 
 	<body>
 		<header> {% include header.html %} </header>
-		<section> {% include claim.html %} </section>
-		<section> {% include current_state.html %} </section>
-		<section> {% include ideal_use_case.html %} </section>
-		<section> {% include contact.html %} </section>
-		<section class = "white"> {% include logos.html %} </section>
+		<section class = "white"> 	{% include claim.html %} </section>
+		<section class = "blue"> 	{% include current_state.html %} </section>
+		<section class = "white"> 	{% include ideal_use_case.html %} </section>
+		<section class = "blue split"> 	
+			{% include features.html %} 
+			{% include contact.html %} 
+		</section>
+		<section class = "white"> 	{% include logos.html %} </section>
 	</body>
 </html>
