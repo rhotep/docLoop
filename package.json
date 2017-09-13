@@ -1,0 +1,27 @@
+{
+  "name": "docLoop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": {
+    "node": "6.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhotep/docLoop.git"
+  },
+  "keywords": [],
+  "author": "Andreas Pittrich",
+  "license": "GPL3",
+  "bugs": {
+    "url": "https://github.com/rhotep/docLoop/issues"
+  },
+  "homepage": "https://github.com/rhotep/docLoop#readme",
+  "dependencies": {
+    "github-app": "^3.2.0",
+    "github-webhook-handler": "^0.6.0"
+  }
+}
