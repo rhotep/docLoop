@@ -1,5 +1,5 @@
-##DocLoop
+==DocLoop
 
-nothing to see here yet, just getting started.
+Nothing to see here yet, just getting started.
 
-[https://rhotep.github-pages/docLoop](docloop)
+[docloop](https://rhotep.github-pages/docLoop)
