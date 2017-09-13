@@ -23,9 +23,14 @@ a:hover {
 	border-bottom:				solid #fff 1px;
 }
 
+body > header, 
 body > section {
 	overflow:					hidden;
 	box-sizing:					border-box;
+}
+
+header {
+	background-image:			url(../images/background_paper.jpg);
 }
 
 body > section:nth-child(2n+1){
