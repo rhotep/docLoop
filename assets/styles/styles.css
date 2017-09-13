@@ -145,13 +145,13 @@ h5 {
 	margin:						0;
 	text-align:					right;
 	vertical-align:				top;
-	width:						45%;
+	width:						25%;
 	padding-right:				1rem;
 }
 
 h5 + p {
 	display:					inline-block;
-	width:						50%;
+	width:						70%;
 	margin-top:					0;
 }
 
